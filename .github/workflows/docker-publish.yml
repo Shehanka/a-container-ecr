@@ -28,9 +28,9 @@ jobs:
       # Build docker image
       - name: Image Build
         run: |-
-          docker build -t 781797606691.dkr.ecr.us-east-1.amazonaws.com/chamod-demo/$SERVICE_NAME:latest .
+          docker build -t 941991152049.dkr.ecr.us-east-1.amazonaws.com/chamod-demo/$SERVICE_NAME:latest .
 
       # Push image to Elastic Container Registry
       - name: Image Push
         run: |-
-          docker push 781797606691.dkr.ecr.us-east-1.amazonaws.com/chamod-demo/$SERVICE_NAME:latest
+          docker push 941991152049.dkr.ecr.us-east-1.amazonaws.com/chamod-demo/$SERVICE_NAME:latest
